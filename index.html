@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  
+
+    <title>Formúlario | Vassen</title>
+</head>
+<body>
+    <div class="box">
+    <form action="#" method="get" target="_blank">
+        <fieldset>
+            <legend><b> Ficha de Serviço</b></legend><br>
+            <div class="inputbox">
+                <input type="text" id="nome" name="nome" class="inputuser" required>
+                <label for="nome" class="labelinput">Nome Completo</label>
+            </div>
+            <p>
+
+            <div class="inputbox">
+                <input type="tel" id="tel" name="tel" class="inputuser" required >
+                <label for="tel" class="labelinput">Telefone</label>
+            </div>
+            <p>
+
+            <div class="inputbox">
+                <input type="text" id="vei" class="inputuser" name="vei" required>
+                <label for="vei" class="labelinput">Veículo</label>
+            </div>
+            <p>
+
+            <div class="inputbox">
+                <input type="text" id="placa" class="inputuser" name="placa" required >
+                <label for="placa" class="labelinput">Placa</label>
+            </div>
+            <p>
+              <div class="checkbox">
+                    <p>Selecione o serviço desejado:</p>
+                    <label for="lavagem" class="checklabel">Lavagem Premium</label>
+                    <input type="checkbox" id="lavagem" name="lavagem" required value="lavagem"> <br> <br>
+               
+                
+                    <label for="interna" class="checklabel">Higienização Interna</label>
+                    <input type="checkbox" id="interna" name="interna" value="interna"><br><br>
+                
+                
+                    <label for="poli-c" class="checklabel">Polimento Comercial</label>
+                    <input type="checkbox" id="poli-c" name="poli-c" value="poli-c"><br><br>
+                
+                    <label for="poli-t" class="checklabel">Polimento Técnico</label>
+                    <input type="checkbox" id="poli-t" name="poli-t"  value="poli-t">
+              </div>
+                
+                <br>
+
+                <div class="inputbox">
+                    <input type="submit"  id="enviar" name="enviar" value="enviar">
+                    
+                </div>
+        </fieldset>
+    </form>
+</div>
+</body>
+</html>

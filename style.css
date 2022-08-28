@@ -1,0 +1,92 @@
+body  {
+    font-family: Arial, Helvetica, sans-serif;  
+    background: #ccc;
+
+  }
+
+  .box{
+      position: absolute;
+      color: rgb(3, 3, 3);
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(229, 245, 7, 0.5);
+      padding: 15px;
+      border-radius: 15px;
+      width: 23%;
+      
+  }
+  fieldset{
+      border: 3px solid black;
+      border-radius: 2px;
+
+  }
+  
+  legend{
+      text-align: center;
+      border: 3px solid black;
+      padding: 10px;
+      border-radius: 3px;
+      background: #f5d10a;
+      
+  }
+  
+  .inputbox{
+      position: relative;
+  }
+
+ .inputuser {
+      background: none;
+      border: none;
+      border-bottom: 1px solid black;
+      outline: none;
+      color: black;
+      font-size: 15px;
+      width: 100%;
+      letter-spacing: 2px;
+  }
+
+  .labelinput{
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      pointer-events: none;
+      transition: .5s;
+  }
+
+  .inputuser:focus ~ .labelinput,
+  .inputuser:valid ~ .labelinput {
+      top: -15px;
+      font-size: 12px;
+      color: black;
+  }
+
+  #enviar{
+      background-image: linear-gradient(185deg, #ffff4a 0, #ffff2b 25%, #f5d10a 50%, #c09600 75%, #906500 100%);
+  width: 100%;
+  border: none;
+  padding: 15px;
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+
+}
+#enviar:hover{
+  background-image: linear-gradient(185deg, #ffff4a 0, #ffff2b 25%, #f5d10a 50%, #c09600 75%, #906500 100%);
+}
+
+
+  
+  
+
+
+.checkbox{
+  text-align: center;
+  border: 3px solid black ;
+  border-radius: 5px;
+  padding: 15px;
+  height: 50%;
+  
+}
+
